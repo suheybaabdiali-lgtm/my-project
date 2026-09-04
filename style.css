@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     font-size: 20px;
     color: blue;
     margin-bottom: 30px;
@@ -24,4 +24,123 @@ input {
 .expenses {
     background-color: lightgray;
     padding: 15px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Element selector */
+h1 {
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* Class selector */
+.add-expense {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Style the form */
+.add-expense form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* ID selector */
+#expense-amount {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+
+/* Inputs */
+input,
+select {
+    padding: 8px;
+}
+
+
+/* Button */
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Expenses section */
+.expenses {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgreen;
+}
+
+
+/* Advanced selector 1:
+   position selector */
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+
+
+tr:hover {
+    background-color: #d6f5d6;
+}
+
+
+
+.expenses td {
+    padding: 12px;
+}
+
+
+
+input:focus {
+    outline: 2px solid blue;
+}
+
+
+
+details {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.video {
+    margin-top: 30px;
 }
